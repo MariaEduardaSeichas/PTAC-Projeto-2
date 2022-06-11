@@ -39,7 +39,7 @@ export default function Home({autor}) {
 }
 
 export async function getServerSideProps(){
-  const response = await api.get("/");
+  const response = await api.get("/autores");
   const autor = response.data;
 
   return {

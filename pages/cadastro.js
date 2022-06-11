@@ -13,7 +13,7 @@ export default function Cadastro() {
 
   const handleSubmite = async (e) => {
     e.preventDefault()
-    const response = await  api.post("/inserir", formValues)
+    const response = await  api.post("/autores", formValues)
     console.log(response)
     Router.push("/")
   }

@@ -7,14 +7,14 @@ import api from "./api/api"
 export default function Cadastro() {
   const [formValues, setFormValues] = useState({
     titulo: "",
-    autor: "",
+    autorId: "",
     editora: "",
     data_publicacao: "",
     preco: "",
   })
   const handleSubmite = async (e) => {
     e.preventDefault()
-    const response = await  api.post("/inserirlivros", formValues)
+    const response = await  api.post("/livros", formValues)
     console.log(response)
     Router.push("/")
   }
@@ -41,7 +41,7 @@ export default function Cadastro() {
   
      <form onSubmit={handleSubmite}>
           <input id="titulo" type="text" name="titulo" placeholder="Digite o titulo do livro" onChange={handleInputChange}/>
-          <input id="autor" type="text" name="autor" placeholder="Digite o id de autor" onChange={handleInputChange}/>
+          <input id="autorId" type="text" name="autor" placeholder="Digite o id de autor" onChange={handleInputChange}/>
           <input id="editora" type="text" name="editora" placeholder="Digite a editora" onChange={handleInputChange}/>
           <input id="data_publicacao" type="date" name="data_publicacao" placeholder="Digite a data de publicação" onChange={handleInputChange}/>
           <input id="preco" type="text" name="preco" placeholder="Digite o valor" onChange={handleInputChange}/>

@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://skeleton-nodejs-express-ejs.mariaseichas.repl.co'
+  baseURL: 'https://Trabalho-Final-PTAS2.mariaseichas.repl.co'
 })
 
 export default api;
