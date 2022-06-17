@@ -9,6 +9,7 @@ export default function cardLivro(props) {
   }
   return (
     <>
+      
       <div>
                 <div>{props.id}</div>
 

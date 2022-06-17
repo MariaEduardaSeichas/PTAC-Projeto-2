@@ -1,62 +1,62 @@
 .cabecalho {
   text-align: center;
   font-style: italic;
-  background-color: #DA70D6	;
-  height: 80% ;
+  background-color: #5B7434	;
+  height: 100% ;
   width: 100% ;
   display: flex;
   flex-direction: column;
-  color: #4F4F4F	;
+  color: #E7E8E2;
    padding-right: 55%;
+  
 }
 
 .titulo{
   text-align: center;
-   padding-left: 100%;
+   padding-left: 10%;
 
 }
 .sobre{
   padding:8px;
   font-style: italic;
    margin-right: 7px;
-  background-color: #B0E0E6;
+  background-color: #9AA977;
 }
 
 .cadastro{
   padding:8px;
   font-style: italic;
   margin-right: 7px;
-   background-color: #B0E0E6;
+   background-color: #9AA977;
 }
 
  .cadastrar{
   padding:8px;
   font-style: italic;
     margin-right: 7px;
-    background-color: #B0E0E6;
+    background-color: #9AA977;
 }
 .login{
   padding:8px;
    margin-right: 5px;
    margin-right: 7px;
-   background-color: #B0E0E6;
+   background-color: #9AA977;
 }
 
 
 
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background:#FFC0CB;
+  background:#9AA977;
+
 }
 
 .main {
-  padding: 5rem 0;
-  flex: 1;
+  padding: 10rem 0;
+  flex: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,10 +64,10 @@
 }
 
 .footer {
-  color:black ;
+  color:#d81313 ;
   width: 100%;
   height: 100px;
-  border-top: 1px solid #eaeaea;
+  border-top: 0px solid #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,12 +94,15 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 5rem;
+  color:#e00b0bfff;
 }
 
 .title,
 .description {
   text-align: center;
+  color:#ededed;
+   font-size: 50px;
 }
 
 .description {
@@ -109,7 +112,7 @@
 
 .code {
   background: #fafafa;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
@@ -122,19 +125,19 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .card {
-  margin: 1rem;
+  margin: 5rem;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 5px solid #ff0000;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
+  width: 55%;
 }
 
 .card:hover,
@@ -165,4 +168,48 @@
     width: 100%;
     flex-direction: column;
   }
+  
+.form{
+  margin-top: 10%;
+  position: absolute;
+  color:#f3f2f2;
+  margin-left: 38%;
+  top: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 35px;
+  
 }
+.formula{
+  margin-top: 10%;
+  position: absolute;
+  color:#f3f2f2;
+  margin-left: 38%;
+  top: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 35px;
+  
+}
+.botao{
+  background: #0066A2;
+
+color: white;
+
+border-style: outset;
+
+border-color: #0066A2;
+
+height: 50px;
+
+width: 100px;
+
+font: bold 15px arial, sans-serif;
+
+text-shadow:none;
+}
+
+
+  
+}
+

@@ -1,10 +1,13 @@
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
+   <link rel="icon"href="image/mundo.png"/>
 export default function menu() {
 	return (
+    
     <main className={styles.cabecalho}>
     <h3>
+     
     <Link href='/sobre'>
 				<a className= {styles.sobre}>Sobre </a>
 			</Link>
@@ -26,6 +29,7 @@ export default function menu() {
         <br></br>
 
       </h1>
+      
       </main>
   )
 }
